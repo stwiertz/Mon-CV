@@ -1,0 +1,55 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    display:grid;
+    width 80%;
+    grid-template-columns: 20% 65%;
+    grid-template-rows: auto auto auto;
+    grid-gap: 5% 5%;
+    margin: 0 auto;
+    
+}
+
+nav{
+    grid-row: 1 / 4;
+    background: grey;
+    justify-content: center;
+    
+    padding: 10px;
+    margin: 0 10px;
+}
+
+#photo_profil{
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+
+h2{
+    text-decoration: underline;
+    color: darkblue;
+    
+}
+.info_nav{
+    text-align: center;
+    padding: 10px;
+}
+
+
+.bloc_header{
+    
+    border-radius: 3px;
+    padding: 7px;
+    
+}
+
+.logo{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    
+}
+
+.image_logi{
+    width:100%
+}
